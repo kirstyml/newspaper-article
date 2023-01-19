@@ -1,0 +1,113 @@
+:root {
+    --purple: rgb(139, 36, 154);
+    --pink: rgb(190, 26, 135);
+    --darkgray: #545454;
+    --gray: rgb(186, 186, 186);
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1rem 2rem;
+    background-color: var(--purple);
+}
+
+article {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+hgroup {
+    margin-bottom: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--darkgray);
+    color: white;
+    padding: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-no-styles {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item-spaced {
+    padding-bottom: 1rem;
+}
+
+.article-link {
+    color: var(--purple);
+}
+
+.article-link:hover {
+    color: var(--gray);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    font-size: 2.25rem;
+}
+
+.nav-link-item {
+    display: inline;
+    margin: 1.25rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--pink);
+}
+
+
+/* TODO: improve preference block after html feedback */
+.preferences-box {
+    background-color: var(--gray);
+    margin: 0 auto;
+}
+
+.preferences-box p {
+    margin: 0;
+}
+
+.checklist {
+    list-style-type: "\2713";
+    padding-left: 0.75rem;
+}
+
+.checklist li {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.article-details {
+    display: inline;
+    margin-right: 1rem;
+    color: var(--gray);
+}
+
+
