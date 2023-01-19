@@ -86,12 +86,10 @@ a {
 
 /* TODO: improve preference block after html feedback */
 .preferences-box {
-    background-color: var(--gray);
     margin: 0 auto;
-}
-
-.preferences-box p {
-    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .checklist {
@@ -104,10 +102,13 @@ a {
     padding-left: 1rem;
 }
 
-.article-details {
+.inline-text {
     display: inline;
+    color: var(--darkgray);
+}
+
+.margin-right {
     margin-right: 1rem;
-    color: var(--gray);
 }
 
 
